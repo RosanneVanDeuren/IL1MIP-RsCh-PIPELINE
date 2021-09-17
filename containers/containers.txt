@@ -1,0 +1,6 @@
+bcftools_1-9_1.0.0.sif
+bedtools_v2.29.2.sif
+gatk3_3.8-1.sif
+perl_5.18.4-threaded-stretch.sif
+python-v2.7-sys-np-pd-pysam.sif
+samtools_1.11.sif
