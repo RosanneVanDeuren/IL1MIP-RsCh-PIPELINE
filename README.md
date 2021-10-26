@@ -1,9 +1,8 @@
 # **IL1MIP-RsCh-PIPELINE**
 A DNA analysis pipeline for research Molecular Inversion Probe sequencing Interleukin-1 panel data
-#### **Description**
-IL1MIP-RsCh-PIPELINE was designed to provide reliable common and rare variant calls from Interleukin(IL)-1 panel Molecular Inversion Probe (MIP)-sequencing data for the purpose of large-cohort analyses. In brief, this pipeline excludes poor quality reads from input bam-files, generates coverage (summary) statistics, calls variants with GATK UnifiedGenotyper, and finally excludes rare variants based on QUAL-parameter in the vcf-file and mpileup statistics.
-` `  
-` `  
+### **DESCRIPTION**
+IL1MIP-RsCh-PIPELINE was designed to provide reliable common and rare variant calls from Interleukin(IL)-1 panel Molecular Inversion Probe (MIP)-sequencing data for the purpose of large-cohort analyses. In brief, this pipeline excludes poor quality reads from input bam-files, generates coverage (summary) statistics, calls variants with GATK UnifiedGenotyper, and finally excludes rare variants based on QUAL-parameter in the vcf-file and mpileup statistics.\
+&nbsp;
 
 ### **QUICKSTART**
 Install Nextflow:
@@ -29,6 +28,7 @@ Run IL1MIP-RsCh-PIPELINE with the following command:
   ```
   nextflow run main.nf -c nextflow.config
   ```
+&nbsp;
 
 ### **RUNNING**
 First, make sure all components are installed properly (see QUICKSTART section).
@@ -36,6 +36,6 @@ First, make sure all components are installed properly (see QUICKSTART section).
 
 
 ### **REQUIREMENTS**
-- Nextflow 20.10.0 (or later) [link] (https://www.nextflow.io/)
+- Nextflow 20.10.0 (or later) [link](https://www.nextflow.io/)
 - Java 8
-- Singularity 3.5.1 (or later) [link] (https://sylabs.io/guides/3.0/user-guide/installation.html)
+- Singularity 3.5.1 (or later) [link](https://sylabs.io/guides/3.0/user-guide/installation.html)
