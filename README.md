@@ -2,8 +2,8 @@
 A DNA analysis pipeline for research Molecular Inversion Probe sequencing Interleukin-1 panel data
 #### **Description**
 IL1MIP-RsCh-PIPELINE was designed to provide reliable common and rare variant calls from Interleukin(IL)-1 panel Molecular Inversion Probe (MIP)-sequencing data for the purpose of large-cohort analyses. In brief, this pipeline excludes poor quality reads from input bam-files, generates coverage (summary) statistics, calls variants with GATK UnifiedGenotyper, and finally excludes rare variants based on QUAL-parameter in the vcf-file and mpileup statistics.
-&NewLine;
-&NewLine;
+` `
+` `
 
 ### **QUICKSTART**
 Install Nextflow:
