@@ -89,3 +89,7 @@ Aside from the parameters that are required in the QUICKSTART section, there are
 - Nextflow 20.10.0 (or later) [link](https://www.nextflow.io/)
 - Java 8
 - Singularity 3.5.1 (or later) [link](https://sylabs.io/guides/3.0/user-guide/installation.html)
+&nbsp;
+
+### **AUTHOR**
+Rosanne C. van Deuren
