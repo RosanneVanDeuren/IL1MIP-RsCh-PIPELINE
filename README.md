@@ -5,10 +5,10 @@ IL1MIP-RsCh-PIPELINE was designed to provide reliable common and rare variant ca
 
 ### **QUICKSTART**
 Install Nextflow:
-  - See installation instructions [link] (https://www.nextflow.io/)
+  - See installation instructions [link](https://www.nextflow.io/)
 
 Install Singularity:
-  - See installation instructions [link] (https://sylabs.io/guides/3.0/user-guide/installation.html)
+  - See installation instructions [link](https://sylabs.io/guides/3.0/user-guide/installation.html)
 
 Download container images in `./containers/` folder:
   - bcftools 1.9: `singularity pull library://weizhu365/mocca-sv/bcftools_1-9:1.0.0`
@@ -18,7 +18,7 @@ Download container images in `./containers/` folder:
   - Python 2.7 (includes modules pysam, numpy and pandas): ``
   - Samtools 1.11: `singularity pull library://daanjg98/rnaseq/samtools:1.11`
   
-Specify required parameters in [nextflow.config] (nextflow.config):
+Specify required parameters in [nextflow.config](nextflow.config):
   - mainDir: Absolute path on your system to where you have installed IL1MIP-RsCh-PIPELINE
   - runID: Name of the run/cohort you wish to process
   - input: Relative path from `mainDir` to input bam-files.
