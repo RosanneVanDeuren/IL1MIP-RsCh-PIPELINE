@@ -49,30 +49,36 @@ Upon running, output is stored in an `out` folder that is newly created, in whic
 Aside from the parameters that are required in the QUICKSTART section, there are additional process-specific parameters that may be adjusted globally in the [nextflow.config](nextflow.config) or for single-time use on the command-line:
 
   `--coverageThreshold`
-  - the threshold that is used to exclude samples from variant calling with a panel-average coverage depth below this threshold
+  - parameter in process coverageFilter
+  - threshold that is used to exclude samples from variant calling with a panel-average coverage depth below this threshold
   - default = 100x
 
   `--gatk_dcov`
+  - paramater in process variantCalling
   - the downsampling coverage threshold per locus
   - default = 5000
 
 
   `--gatk_dt`
+  - paramater in process variantCalling
   - parameter that specifies whether the coverage should be assessed per sample, technology or otherwise
   - default = "BY_SAMPLE"
 
 
   `--gatk_rf`
+  - paramater in process variantCalling
   - parameter that specifies which reads should be filtered out before calling variants
   - default = "BadCigar"
 
 
   `--gatk_glm`
+  - paramater in process variantCalling
   - the parameter that specifies whether to call single-nucleotide variants (SNVs), indels, or both
   - default = "BOTH"
 
 
   `--gatk_stand_call_conf`
+  - paramater in process variantCalling
   - the Phred threshold of confidence is required to consider a site confidently called
   - default = 30.0
 
