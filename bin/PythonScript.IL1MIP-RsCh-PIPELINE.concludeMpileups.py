@@ -63,7 +63,7 @@ def writeMpileupConclusionNote(altPercentage, zygosity, readmarker, rarevariantI
             rarevariantInfo_df.loc[index, "mpileupNote"] = "NA"
         else:
             rarevariantInfo_df.loc[index, "mpileupConcluded"] = "TP"
-            rarevariantInfo_df.loc[index, "mpileupNote"] = str(altPercentage)
+            rarevariantInfo_df.loc[index, "mpileupPercentage"] = str(altPercentage)
             rarevariantInfo_df.loc[index, "mpileupZygosity"] = "Uncertain"
             rarevariantInfo_df.loc[index, "mpileupMarker"] = readmarker
             rarevariantInfo_df.loc[index, "mpileupNote"] = "NA"
